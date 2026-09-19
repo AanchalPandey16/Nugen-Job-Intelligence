@@ -4,3 +4,9 @@ __pycache__/
 .venv/
 venv/
 .streamlit/
+
+check.py
+test_api.py
+
+.DS_Store
+Thumbs.db
