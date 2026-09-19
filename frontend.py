@@ -2,7 +2,7 @@ import html
 import requests
 import streamlit as st
 
-API_URL = API_URL = "https://nugen-job-intelligence.onrender.com/analyze"
+API_URL = "https://nugen-job-intelligence.onrender.com/analyze"
 
 st.set_page_config(
     page_title="Nugen Job Intelligence",
