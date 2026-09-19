@@ -2,7 +2,7 @@ import html
 import requests
 import streamlit as st
 
-API_URL = "http://127.0.0.1:8000/analyze"
+API_URL = API_URL = "https://nugen-job-intelligence.onrender.com/analyze"
 
 st.set_page_config(
     page_title="Nugen Job Intelligence",
@@ -10,19 +10,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
-
-# ---------------------------------------------------------------------------
-# Design tokens
-#   ink      #0E1726   text / primary button
-#   mist     #F2F4F8   page background
-#   surface  #FFFFFF   panels
-#   line     #E3E7EE   borders
-#   match    #0E7C66   matched (deep green)
-#   partial  #B7791F   partially matched (amber)
-#   missing  #C2374F   missing (rose)
-#   accent   #3D4FE0   brand / focus (indigo)
-# Type: Sora (headlines, numbers)  +  DM Sans (interface, body)
-# ---------------------------------------------------------------------------
 
 CSS = """
 <style>
