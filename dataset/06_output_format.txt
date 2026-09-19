@@ -1,0 +1,24 @@
+EXPECTED OUTPUT FORMAT
+
+For resume-to-job evaluation, prefer this structure:
+
+MATCHED
+- required skill
+- required skill
+
+PARTIALLY MATCHED
+- required skill, with brief evidence
+
+MISSING
+- required skill
+- required skill
+
+RECOMMENDATION
+Give only truthful next steps for missing or partial skills.
+
+Do not:
+- invent undocumented skills
+- classify unrelated resume skills
+- reverse the job requirement and resume evidence
+- say a skill is missing when it is explicitly present
+- say a skill is partially matched only because another related skill exists

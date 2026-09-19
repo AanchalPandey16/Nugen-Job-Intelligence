@@ -1,0 +1,20 @@
+ROLE REQUIREMENTS FOR JUNIOR DATA ROLES
+
+DATA ANALYST
+Common requirements include Python, SQL, Excel, Pandas, NumPy, data cleaning, exploratory data analysis, statistics, ETL, dashboards, Power BI, Tableau, Matplotlib, and stakeholder communication.
+
+JUNIOR DATA SCIENTIST
+Common requirements include Python, SQL, Pandas, NumPy, scikit-learn, statistics, feature engineering, regression, classification, clustering, train/test split, cross-validation, and model evaluation.
+
+JUNIOR MACHINE LEARNING ENGINEER
+Common requirements include Python, machine learning, APIs, FastAPI or Flask, Git, SQL, model deployment, data processing, Docker, cloud platforms, CI/CD, NLP, LLM APIs, RAG, embeddings, and vector databases.
+
+IMPORTANT:
+A related skill is not the same as an explicitly required skill.
+Examples:
+FastAPI does not prove Django.
+MySQL does not prove PostgreSQL.
+Tableau does not prove Power BI.
+Python does not prove Flask or Django.
+Machine learning does not prove deep learning.
+OpenAI API usage does not prove RAG or vector database experience.

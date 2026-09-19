@@ -1,0 +1,46 @@
+EVIDENCE-BASED RESUME EVALUATION POLICY
+
+Evaluate only the skills required by the job description.
+
+For every required skill, assign exactly one of these labels:
+
+MATCHED
+Use MATCHED when the required skill is explicitly present in the resume or is directly demonstrated by a concrete project or work statement.
+
+PARTIALLY MATCHED
+Use PARTIALLY MATCHED only when there is direct but incomplete evidence for the exact required skill.
+Do not use PARTIALLY MATCHED merely because a related technology is present.
+
+MISSING
+Use MISSING when the exact required skill is not supported by the resume.
+
+STRICT RULES
+
+1. Explicit evidence must not be downgraded.
+If FastAPI is explicitly listed, FastAPI is MATCHED.
+If Tableau is explicitly listed, Tableau is MATCHED.
+If scikit-learn is explicitly listed, scikit-learn is MATCHED.
+
+2. Related technologies are not substitutes.
+FastAPI does not match Django.
+MySQL does not match PostgreSQL.
+Tableau does not match Power BI.
+Matplotlib does not match Power BI.
+Python does not match Flask or Django.
+scikit-learn does not match TensorFlow.
+Machine learning does not match deep learning.
+OpenAI API integration does not match RAG.
+OpenAI API integration does not match vector databases.
+
+3. Do not invent experience.
+Never say that a candidate probably knows a skill because they know something related.
+
+4. Only evaluate job requirements.
+Do not classify unrelated candidate skills unless explicitly asked.
+
+5. Concrete project evidence counts.
+If the resume says 'deployed a machine learning API', model deployment is MATCHED.
+If the resume says 'built classification and regression models with scikit-learn', machine learning and scikit-learn are MATCHED.
+
+6. Recommendations must be truthful.
+If a skill is missing, recommend learning it and building evidence before adding it to the resume.

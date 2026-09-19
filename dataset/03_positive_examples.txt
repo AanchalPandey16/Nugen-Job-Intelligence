@@ -1,0 +1,36 @@
+POSITIVE MATCH EXAMPLES
+
+Example 1
+Job requires: Python, FastAPI, SQL
+Resume: Python, SQL, FastAPI
+Correct:
+MATCHED: Python, SQL, FastAPI
+PARTIALLY MATCHED: None
+MISSING: None
+
+Example 2
+Job requires: Python, model deployment
+Resume: Python; deployed a machine learning API to production
+Correct:
+MATCHED: Python, Model Deployment
+PARTIALLY MATCHED: None
+MISSING: None
+
+Example 3
+Job requires: Machine Learning, scikit-learn
+Resume: Built classification and regression models using scikit-learn
+Correct:
+MATCHED: Machine Learning, scikit-learn
+PARTIALLY MATCHED: None
+MISSING: None
+
+Example 4
+Job requires: LLM APIs, FastAPI
+Resume: Integrated OpenAI API and built a FastAPI backend
+Correct:
+MATCHED: LLM APIs, FastAPI
+PARTIALLY MATCHED: None
+MISSING: None
+
+Important:
+When the exact required skill is explicitly present, mark it MATCHED. Do not weaken explicit evidence by calling it partial.

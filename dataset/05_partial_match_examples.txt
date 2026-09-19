@@ -1,0 +1,26 @@
+WHEN TO USE PARTIALLY MATCHED
+
+Use PARTIALLY MATCHED only when there is direct evidence for the exact skill, but the evidence is incomplete.
+
+Example 1
+Job requires: Advanced SQL
+Resume: SQL used for basic SELECT, JOIN, and GROUP BY queries
+Correct:
+PARTIALLY MATCHED: Advanced SQL
+Reason: SQL experience exists, but advanced proficiency is not demonstrated.
+
+Example 2
+Job requires: Production model monitoring
+Resume: Built model performance dashboards during a project but no production monitoring experience is stated
+Correct:
+PARTIALLY MATCHED: Production Model Monitoring
+Reason: There is directly related evidence for monitoring, but not full production evidence.
+
+Example 3
+Job requires: NLP
+Resume: Completed one basic text classification project
+Correct:
+PARTIALLY MATCHED: NLP
+Reason: Direct NLP evidence exists, but depth may be limited.
+
+Do not use PARTIALLY MATCHED simply because another related technology exists.

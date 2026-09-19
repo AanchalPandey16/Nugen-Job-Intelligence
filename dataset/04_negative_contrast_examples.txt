@@ -1,0 +1,43 @@
+NEGATIVE AND CONTRASTIVE EXAMPLES
+
+Example 1
+Job requires: Django
+Resume: Python, FastAPI
+Correct:
+MISSING: Django
+Reason: FastAPI and Python do not prove Django experience.
+
+Example 2
+Job requires: PostgreSQL
+Resume: MySQL
+Correct:
+MISSING: PostgreSQL
+Reason: MySQL is related database experience but does not prove PostgreSQL.
+
+Example 3
+Job requires: Power BI
+Resume: Tableau, Matplotlib
+Correct:
+MISSING: Power BI
+Reason: Other visualization tools do not prove Power BI.
+
+Example 4
+Job requires: Deep Learning, TensorFlow
+Resume: Machine learning, scikit-learn, classification, regression
+Correct:
+MISSING: Deep Learning, TensorFlow
+Reason: Traditional machine learning experience does not prove deep learning or TensorFlow.
+
+Example 5
+Job requires: RAG, Vector Databases
+Resume: OpenAI API integration, FastAPI
+Correct:
+MISSING: RAG, Vector Databases
+Reason: LLM API integration does not prove retrieval-augmented generation or vector database experience.
+
+Example 6
+Job requires: Docker
+Resume: Deployed a machine learning API
+Correct:
+MISSING: Docker
+Reason: Deployment can be done without Docker. Do not infer Docker unless explicitly supported.
